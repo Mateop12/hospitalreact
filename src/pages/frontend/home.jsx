@@ -1,22 +1,38 @@
 import Header from "../../components/frontend/header";
 import Footer from "../../components/frontend/footer";
-import { Link } from "react-router-dom";
-function Home() {
+import SectionHero from "../../components/frontend/sectionHero"
+import SectionWhyUs from "../../components/frontend/sectionWhyUs"
+import SectionAbout from "../../components/frontend/sectionAbout"
+import SectionCounts from "../../components/frontend/sectionCounts"
+import SectionServices from "../../components/frontend/sectionServices"
+import AppointmentSection from "../../components/frontend/appointmentSection"
+import DepartmentsSection from "../../components/frontend/departmentsSection"
+import DoctorsSection from "../../components/frontend/doctorsSection"
+import FrequentlyAskedQuestionsSection from "../../components/frontend/frequentlyAskedQuestionsSection"
+import TestimonialsSection from "../../components/frontend/testimonialsSection"
+import GallerySection from "../../components/frontend/gallerySection"
+
+function home() {
   return (
     <>
-        <Header />
-        <section id="hero" className="d-flex align-items-center">
-            <div className="container">
-            <h1>Welcome to Medilab</h1>
-            <h2>We are team of talented designers making websites with Bootstrap</h2>
-                <Link to="/login" className="btn-get-started scrollto">Pedir Cita</Link>
-            </div>
-        </section>
-        <Footer />
+      <Header />
+      <SectionHero />
+      <SectionWhyUs />
+      <SectionAbout/>
+      <SectionCounts />
+      <SectionServices />
+      <AppointmentSection />
+      <DepartmentsSection />
+      <DoctorsSection />
+      <FrequentlyAskedQuestionsSection />
+      <TestimonialsSection />
+      <GallerySection />
+      <Footer />
     </>
   )
 }
-export default Home;
+
+export default home
 
 
 
