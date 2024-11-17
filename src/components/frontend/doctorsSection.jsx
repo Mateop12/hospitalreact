@@ -1,4 +1,8 @@
 import React from 'react'
+import doctor1 from "/src/assets/img/doctors/doctors-1.jpg"
+import doctor2 from "/src/assets/img/doctors/doctors-2.jpg"
+import doctor3 from "/src/assets/img/doctors/doctors-3.jpg"
+import doctor4 from "/src/assets/img/doctors/doctors-4.jpg"
 
 function DoctorsSection() {
   return (
@@ -15,7 +19,7 @@ function DoctorsSection() {
 
                 <div className="col-lg-6">
                     <div className="member d-flex align-items-start">
-                    <div className="pic"><img src="assets/img/doctors/doctors-1.jpg" className="img-fluid" alt=""/></div>
+                    <div className="pic"><img src={doctor1} className="img-fluid" alt=""/></div>
                     <div className="member-info">
                         <h4>Walter White</h4>
                         <span>Chief Medical Officer</span>
@@ -32,7 +36,7 @@ function DoctorsSection() {
 
                 <div className="col-lg-6 mt-4 mt-lg-0">
                     <div className="member d-flex align-items-start">
-                    <div className="pic"><img src="assets/img/doctors/doctors-2.jpg" className="img-fluid" alt=""/></div>
+                    <div className="pic"><img src={doctor2} className="img-fluid" alt=""/></div>
                     <div className="member-info">
                         <h4>Sarah Jhonson</h4>
                         <span>Anesthesiologist</span>
@@ -49,7 +53,7 @@ function DoctorsSection() {
 
                 <div className="col-lg-6 mt-4">
                     <div className="member d-flex align-items-start">
-                    <div className="pic"><img src="assets/img/doctors/doctors-3.jpg" className="img-fluid" alt=""/></div>
+                    <div className="pic"><img src={doctor3} className="img-fluid" alt=""/></div>
                     <div className="member-info">
                         <h4>William Anderson</h4>
                         <span>Cardiology</span>
@@ -66,7 +70,7 @@ function DoctorsSection() {
 
                 <div className="col-lg-6 mt-4">
                     <div className="member d-flex align-items-start">
-                    <div className="pic"><img src="assets/img/doctors/doctors-4.jpg" className="img-fluid" alt=""/></div>
+                    <div className="pic"><img src={doctor4} className="img-fluid" alt=""/></div>
                     <div className="member-info">
                         <h4>Amanda Jepson</h4>
                         <span>Neurosurgeon</span>

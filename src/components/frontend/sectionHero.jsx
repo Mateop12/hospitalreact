@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function SectionHero() {
   return (
@@ -7,7 +8,7 @@ function SectionHero() {
             <div className="container">
                 <h1>Welcome to Medilab</h1>
                 <h2>We are team of talented designers making websites with Bootstrap</h2>
-                <a to="/" className="btn-get-started scrollto">Pedir Cita</a>
+                <Link to="/login" className="btn-get-started scrollto">Pedir Cita</Link>
             </div>
         </section>
     </>
